@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
 require('@swc-node/register');
-const { api } = require('../dist/index.js').default;
+const { api } = require('../dist/index.js');
 api.runCLI(process.argv.slice(2));

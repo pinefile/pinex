@@ -1,8 +1,8 @@
-import { run } from '../src';
+import { log, run } from '../dist';
 
-export default () => console.log('default');
-export const test = () => console.log('foo');
-export const ci = async () =>
-  run('npm run lint && npm run test', {
+export default () => log.info('Hello, Pinex!');
+
+export const test = async () =>
+  run('npm run lint && npm run tsc', {
     cwd: `${__dirname}/..`,
   });
