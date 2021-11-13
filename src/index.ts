@@ -21,9 +21,9 @@ const findGlobalFile = () => {
 
 const runCLI = (argv: string[]) => {
   if (argv[0] === 'global') {
-    argv = argv.slice(1);
     const file = findGlobalFile();
     if (file) {
+      argv = argv.slice(1);
       argv.push(`--file=${file}`);
     }
   }
