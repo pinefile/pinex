@@ -1,16 +1,5 @@
 #!/usr/bin/env node
 
 require("@swc-node/register");
-
-const os = require("os");
-const path = require("path");
 const { api } = require("../dist/index.js");
-
-let argv = process.argv.slice(2);
-
-if (argv[0] === "global") {
-  argv = argv.slice(1);
-  argv.push(`--file=${path.join(os.homedir(), ".pine", "pinefile.js")}`);
-}
-
-api.runCLI(argv);
+api.runCLI(process.argv.slice(2));
