@@ -1,38 +1,4 @@
-import os from 'os';
-import path from 'path';
-import fs from 'fs';
 import * as pine from '@pinefile/pine';
+import { register } from './experiments';
 
-const PINE_FILE_ORDER = Object.freeze([
-  'Pinefile',
-  'pinefile.js',
-  'pinefile.ts',
-]);
-
-const findGlobalFile = () => {
-  for (const file of PINE_FILE_ORDER) {
-    const p = path.join(os.homedir(), '.pine', file);
-    if (fs.existsSync(p)) {
-      return p;
-    }
-  }
-  return null;
-};
-
-const runCLI = (argv: string[]) => {
-  if (argv[0] === 'global') {
-    const file = findGlobalFile();
-    if (file) {
-      argv = argv.slice(1);
-      argv.push(`--file=${file}`);
-    }
-  }
-
-  return pine.api.runCLI(argv);
-};
-
-export * from '@pinefile/pine';
-export const api = {
-  ...pine.api,
-  runCLI,
-};
+module.exports = register(pine);
