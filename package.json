@@ -1,5 +1,5 @@
 {
-  "name": "pinex",
+  "name": "@pinefile/pinex",
   "version": "1.0.0",
   "description": "Experimental version of Pine",
   "main": "src/index.ts",
