@@ -1,11 +1,14 @@
 {
   "name": "@pinefile/pinex",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Experimental version of Pine",
   "main": "src/index.ts",
   "bin": {
     "pinex": "bin/pinex"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc --build",
     "lint": "eslint src --ext .ts",
