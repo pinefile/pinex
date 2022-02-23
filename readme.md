@@ -12,7 +12,7 @@ Experimental version of [Pine](https://pinefile.github.io)
 
 ## Features
 
-* [esbuild-register](https://github.com/egoist/esbuild-register/)
+* [esbuild-register](https://github.com/egoist/esbuild-register)
 * Global Pinefiles `~/.pine/pinefile.js`
 
 ## License
