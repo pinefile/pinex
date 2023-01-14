@@ -29,7 +29,7 @@
   "license": "MIT",
   "dependencies": {
     "@pinefile/pine": "^2.0.0",
-    "esbuild": "^0.16.0",
+    "esbuild": "^0.17.0",
     "esbuild-register": "^3.3.2"
   },
   "devDependencies": {
