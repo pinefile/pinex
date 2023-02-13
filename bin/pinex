@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
 require("esbuild-register");
-const { api } = require("../dist/index.js");
+const { api } = require("../dist/index.js").default;
 api.runCLI(process.argv.slice(2));

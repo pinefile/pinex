@@ -8,8 +8,6 @@
 
 [![Build Status](https://img.shields.io/github/workflow/status/pinefile/pinex/build?color=049668&style=flat-square)](https://github.com/pinefile/pinex/actions) [![NPM](https://img.shields.io/npm/v/@pinefile/pinex?color=049668&style=flat-square)](https://www.npmjs.com/package/@pinefile/pinex)
 
-Experimental version of [Pine](https://pinefile.github.io)
-
 ## Features
 
 * [esbuild-register](https://github.com/egoist/esbuild-register)

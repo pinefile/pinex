@@ -1,4 +1,9 @@
-import { register as registerGlobalFile } from './global-file';
+/*
+  // experiment files needs to export register function:
+  export const register = (pine: any) => ({
 
-export const register = (pine: any) =>
-  [registerGlobalFile].reduce((prev, cur) => cur(prev), pine);
+  });
+ */
+
+export const register = (pine: any) => pine;
+// [].reduce((prev, cur) => cur(prev), pine);

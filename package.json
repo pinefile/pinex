@@ -28,15 +28,15 @@
   "author": "Fredrik Forsmo <fredrik.forsmo@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@pinefile/pine": "^1.5.0",
-    "esbuild": "^0.14.23",
-    "esbuild-register": "^3.3.2"
+    "@pinefile/pine": "^2.0.3"
   },
   "devDependencies": {
-    "@types/node": "^17.0.21",
-    "@typescript-eslint/eslint-plugin": "^5.12.1",
-    "@typescript-eslint/parser": "^5.12.1",
-    "eslint": "^8.9.0",
-    "typescript": "^4.5.5"
+    "@types/node": "^18.13.0",
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "@typescript-eslint/parser": "^5.51.0",
+    "esbuild": "^0.17.8",
+    "esbuild-register": "^3.4.2",
+    "eslint": "^8.34.0",
+    "typescript": "^4.9.5"
   }
 }
