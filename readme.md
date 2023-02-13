@@ -6,7 +6,7 @@
 
 # Pinex
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/pinefile/pine/nodejs.yml?color=049668&style=flat-square)](https://github.com/pinefile/pinex/actions) [![NPM](https://img.shields.io/npm/v/@pinefile/pinex?color=049668&style=flat-square)](https://www.npmjs.com/package/@pinefile/pinex)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/pinefile/pinex/nodejs.yml?color=049668&style=flat-square)](https://github.com/pinefile/pinex/actions) [![NPM](https://img.shields.io/npm/v/@pinefile/pinex?color=049668&style=flat-square)](https://www.npmjs.com/package/@pinefile/pinex)
 
 ## Features
 
