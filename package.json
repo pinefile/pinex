@@ -31,7 +31,7 @@
     "@pinefile/pine": "^2.0.3"
   },
   "devDependencies": {
-    "@types/node": "^18.13.0",
+    "@types/node": "^20.0.0",
     "@typescript-eslint/eslint-plugin": "^5.51.0",
     "@typescript-eslint/parser": "^5.51.0",
     "esbuild": "^0.19.0",
